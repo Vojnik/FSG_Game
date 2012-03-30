@@ -15,7 +15,7 @@ public class SimpleTest extends BasicGame {
 
     @Override
     public void init(GameContainer container) throws SlickException {
-        Music music = new Music("D:\\Music\\Múm\\The Ballad of the Broken Birdie Records.wav");
+        Music music = new Music("res\\somefile.wav");
         music.play(1.0f, 1.0f);
     }
 
